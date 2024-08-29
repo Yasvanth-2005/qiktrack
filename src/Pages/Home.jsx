@@ -42,6 +42,12 @@ const Home = () => {
           </button>
         </Link>
         <br />
+        <Link to="/bus-tracking">
+          <button className="mt-2 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
+            Bus Tracking
+          </button>
+        </Link>
+        <br />
         <Link to="/children">
           <button className="mt-3 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
             Childrens Page
@@ -51,6 +57,18 @@ const Home = () => {
         <Link to="/homework">
           <button className="mt-3 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
             Homework
+          </button>
+        </Link>
+        <br />
+        <Link to="/studentteacher">
+          <button className="mt-3 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
+            Student's Teachers
+          </button>
+        </Link>
+        <br />
+        <Link to="/attendance">
+          <button className="mt-3 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
+            Attendance
           </button>
         </Link>
       </div>

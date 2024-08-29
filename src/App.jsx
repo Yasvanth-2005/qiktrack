@@ -8,6 +8,8 @@ import {
   Children,
   Homework,
   Teachers,
+  Attendance,
+  BusTracking,
 } from "./Pages";
 
 function App() {
@@ -19,8 +21,9 @@ function App() {
         <Route path="/pickup" element={<Pickup />} />
         <Route path="/teachers" element={<TeacherHome />} />
         <Route path="/bus" element={<SchoolBus />} />
+        <Route path="/bus-tracking" element={<BusTracking />} />
         <Route path="/children" element={<Children />} />
-        <Route path="/attendence" element={<Children />} />
+        <Route path="/attendance" element={<Attendance />} />
         <Route path="/studentteacher" element={<Teachers />} />
         <Route path="/homework" element={<Homework />} />
       </Routes>

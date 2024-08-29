@@ -15,7 +15,7 @@ const TripCard = () => {
     <div className="p-3 bg-white border border-1 border-[#29A7E4] rounded mb-4">
       <div className="flex justify-between items-center">
         <h1 className="font-semibold text-lg">Trip</h1>
-        <div className="flex items-center gap-2 text-[#29A7E4]">
+        <div className="flex items-center gap-2 text-[#29A7E4] cursor-pointer hover:underline">
           Pickup <img src={sidedrop} alt="chevron-left" />
         </div>
       </div>
@@ -44,7 +44,7 @@ const TripCard = () => {
             <img alt="incrct" src={wrong} /> <h3>30</h3>
           </div>
         </div>
-        <button className="px-4 py-1 rounded text-white bg-green-600">
+        <button className="px-4 py-1 rounded text-white bg-green-600 hover:bg-green-700">
           Start
         </button>
       </div>
@@ -54,7 +54,7 @@ const TripCard = () => {
       </div>
 
       <div className="mt-3 px-3 flex justify-between">
-        <div className="py-1 px-2 pr-3 cursor-pointer rounded text-white bg-[#113870] flex items-center gap-2">
+        <div className="py-1 px-2 pr-3 cursor-pointer rounded text-white bg-[#113870] hover:bg-[#1E4F8A] flex items-center gap-2">
           <img
             src={location}
             alt="location"
@@ -62,7 +62,7 @@ const TripCard = () => {
           />{" "}
           Navigate
         </div>
-        <div className="py-1 px-2 cursor-pointer rounded text-white bg-[#F3B807] flex items-center justify-center">
+        <div className="py-1 px-2 cursor-pointer rounded text-white bg-[#F3B807] hover:bg-[#E0A306] flex items-center justify-center">
           <h1>Mark Completed</h1>
         </div>
       </div>

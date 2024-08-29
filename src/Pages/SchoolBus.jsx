@@ -4,6 +4,7 @@ import route from "../assets/teacher/route.png";
 import driver from "../assets/teacher/driver.svg";
 import helper from "../assets/teacher/helper.svg";
 import school from "../assets/teacher/school.svg";
+import { Link } from "react-router-dom";
 
 const BusCard = () => {
   return (
@@ -52,15 +53,17 @@ const SchoolBus = () => {
     <>
       {/* Header Section */}
       <div className="flex px-2 py-3 justify-between items-center bg-[#EBF2FC]">
-        <div className="cursor-pointer flex items-center gap-3">
-          <img
-            src={back}
-            alt="back"
-            className="pt-1"
-            style={{ transform: "scale(0.9)" }}
-          />
-          <h2 className="text-lg font-semibold text-[#113870]">School Bus</h2>
-        </div>
+        <Link to="/">
+          <div className="cursor-pointer flex items-center gap-3">
+            <img
+              src={back}
+              alt="back"
+              className="pt-1"
+              style={{ transform: "scale(0.9)" }}
+            />
+            <h2 className="text-lg font-semibold text-[#113870]">School Bus</h2>
+          </div>
+        </Link>
       </div>
 
       <div className="px-3">

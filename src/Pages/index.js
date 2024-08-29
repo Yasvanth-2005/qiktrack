@@ -6,3 +6,5 @@ export { default as TeacherHome } from "./TeacherHome";
 export { default as Children } from "./Children";
 export { default as Homework } from "./Homework";
 export { default as Teachers } from "./Teachers";
+export { default as Attendance } from "./Attendance";
+export { default as BusTracking } from "./BusTracking";

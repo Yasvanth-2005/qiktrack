@@ -9,7 +9,7 @@ import phone from "../assets/Images/phone.svg";
 const HomeworkCard = () => {
   const [viewMore, setViewMore] = useState(false);
   return (
-    <div className="mb-4">
+    <div className="mb-4 shadow-md">
       <div className="bg-white p-2 rounded">
         <div className="flex items-center justify-between">
           <h3 className="text-[#113870] font-semibold">
@@ -49,7 +49,7 @@ const HomeworkCard = () => {
             onClick={() => setViewMore((p) => !p)}
             className="text-sm hover:underline cursor-pointer text-[#113870]"
           >
-            View More
+            {viewMore ? "View Less" : "View More"}
           </h2>
         </div>
       </div>
