@@ -58,7 +58,7 @@ const NoticeCard = () => {
       <div className="mt-2"></div>
       <img src={dottedline} alt="Dotted Line" className="pb-2" />
       <div className="px-3 pb-2">
-        <h2 className="text-[#113870] text-lg font-medium">Today's Homework</h2>
+        <h2 className="text-[#113870] text-lg font-medium">Today's Notice</h2>
         <div className="my-3">
           <form>
             <input
@@ -80,7 +80,7 @@ const NoticeCard = () => {
             >
               {!fileName ? (
                 <>
-                  <h6 className="text-gray-500">Describe Homework here</h6>
+                  <h6 className="text-gray-500">Describe Notice here</h6>
                   <h3 className="font-semibold text-lg">OR</h3>
                   <img
                     alt="upload img"
@@ -89,7 +89,7 @@ const NoticeCard = () => {
                     style={{ transform: "scale(0.7)" }}
                   />
                   <h5 className="text-white rounded text-sm px-2 py-1 bg-[#113870] hover:bg-[#1D4F8C]">
-                    Upload Homework
+                    Upload Notice
                   </h5>
                 </>
               ) : (
