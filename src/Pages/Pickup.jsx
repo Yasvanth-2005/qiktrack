@@ -63,7 +63,7 @@ const PickupCard = () => {
         {/* Card */}
         <div className="rounded-lg overflow-hidden flex items-center justify-between border-[0.5px] border-[#113870] bg-[#EBF2FC]">
           <div className="flex gap-2 items-center">
-            <img src={person} alt="image" className="h-[60px] w-[60px]" />
+            <img src={person} alt="person" className="h-[60px] w-[60px]" />
             <div>
               <h2 className="font-semibold text-lg">
                 Ayush Tiwari{" "}
@@ -82,7 +82,7 @@ const PickupCard = () => {
         {/* Card */}
         <div className="rounded-lg overflow-hidden flex items-center justify-between border-[0.5px] border-[#113870] bg-[#EBF2FC]">
           <div className="flex gap-2 items-center">
-            <img src={person} alt="image" className="h-[60px] w-[60px]" />
+            <img src={person} alt="person" className="h-[60px] w-[60px]" />
             <div>
               <h2 className="font-semibold text-lg">
                 Ayush Tiwari{" "}

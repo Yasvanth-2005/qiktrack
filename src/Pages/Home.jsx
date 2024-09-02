@@ -29,25 +29,7 @@ const Home = () => {
         </Link>
         <br />
         <br />
-        <h5 className="text-sm">Teachers</h5>
-        <Link to="/teachers">
-          <button className="mt-3 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
-            Teacher Home Page
-          </button>
-        </Link>
-        <br />
-        <Link to="/bus">
-          <button className="mt-3 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
-            School Bus
-          </button>
-        </Link>
-        <br />
-        <Link to="/bus-tracking">
-          <button className="mt-2 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
-            Bus Tracking
-          </button>
-        </Link>
-        <br />
+        <h5 className="text-sm">Students</h5>
         <Link to="/children">
           <button className="mt-3 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
             Childrens Page
@@ -71,6 +53,63 @@ const Home = () => {
             Attendance
           </button>
         </Link>
+        <br />
+        <br />
+        <h5 className="text-sm">Teachers</h5>
+        <Link to="/teachers">
+          <button className="mt-3 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
+            Teacher Home Page
+          </button>
+        </Link>
+        <br />
+        <Link to="/bus">
+          <button className="mt-3 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
+            School Bus
+          </button>
+        </Link>
+        <br />
+        <Link to="/bus-tracking">
+          <button className="mt-3 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
+            Bus Tracking
+          </button>
+        </Link>
+        <br />
+        <Link to="/myclasses">
+          <button className="mt-2 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
+            My Classes
+          </button>
+        </Link>
+        <br />
+        <Link to="/class/attendance">
+          <button className="mt-2 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
+            Classes Attendance
+          </button>
+        </Link>
+        <br />
+        <Link to="/class/homework">
+          <button className="mt-2 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
+            Classes Homework
+          </button>
+        </Link>
+        <br />
+        <Link to="/class/result">
+          <button className="mt-2 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
+            Classes Result
+          </button>
+        </Link>
+        <br />
+        <Link to="/class/notice">
+          <button className="mt-2 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
+            Classes Notice
+          </button>
+        </Link>
+        <br />
+        <Link to="/class/reminder">
+          <button className="mt-2 px-2 py-1.5 rounded bg-blue-600 hover:bg-blue-700 text-white">
+            Classes Remainder
+          </button>
+        </Link>
+        <div className="mb-2"></div>
       </div>
     </>
   );

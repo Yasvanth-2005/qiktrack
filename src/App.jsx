@@ -10,6 +10,12 @@ import {
   Teachers,
   Attendance,
   BusTracking,
+  MyClasses,
+  ClassAttendance,
+  ClassHomework,
+  ClassResult,
+  ClassNotice,
+  ClassRemainder,
 } from "./Pages";
 
 function App() {
@@ -26,6 +32,12 @@ function App() {
         <Route path="/attendance" element={<Attendance />} />
         <Route path="/studentteacher" element={<Teachers />} />
         <Route path="/homework" element={<Homework />} />
+        <Route path="/myclasses" element={<MyClasses />} />
+        <Route path="/class/attendance" element={<ClassAttendance />} />
+        <Route path="/class/homework" element={<ClassHomework />} />
+        <Route path="/class/result" element={<ClassResult />} />
+        <Route path="/class/notice" element={<ClassNotice />} />
+        <Route path="/class/reminder" element={<ClassRemainder />} />
       </Routes>
     </>
   );

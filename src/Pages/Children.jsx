@@ -15,7 +15,7 @@ const ChildrenCard = () => {
         </h3>
       </div>
       <div className="flex justify-between items-center px-2 my-3">
-        <Link to="/attendence">
+        <Link to="/attendance">
           <h2 className="cursor-pointer hover:underline">Attendence</h2>
         </Link>
         <Link to="/studentteacher">
